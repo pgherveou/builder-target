@@ -1,0 +1,10 @@
+{
+  "cordova": {
+    "api.js": "api.cordova.js"
+  },
+  "scripts": [
+    "index.js",
+    "api.js"
+  ],
+  "main": "index.js"
+}
