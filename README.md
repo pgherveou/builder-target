@@ -44,7 +44,7 @@ build.scripts(nodes)
   .use('scripts', target('cordova'))
   .build(function (err, string) {
     if (err) throw err;
-    fs.writeFileSync('build.js', string);
+    fs.writeFileSync('build-cordova.js', string);
   })
 
 ```
